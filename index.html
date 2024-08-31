@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <div class="logo grid-cols-4">
+                    <img src="images/img1.png">
+                </div>
+    
+                <div class="nav grid-cols-4">
+                    <ul>
+                        <li><a href='#home'>Home</a></li>
+                        <li><a href='#cart'>Cart</a></li>
+                    </ul>
+                </div>
+                <div class="search grid-cols-4">
+                    
+                        <form class="max-w-md mx-auto">   
+                            <label for="default-search" class="mb-2 text-sm font-medium text-black sr-only">Search</label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                                    <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                                    </svg>
+                                </div>
+                                <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-400 rounded-lg shadow-xl" placeholder="Search" required />
+                                <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-none font-medium rounded-lg text-sm px-4 py-2"><img src="images/img2.png" style="height:29px;width:28px"></button>
+                            </div>
+                        </form>
+
+                </div>
+            </div> 
+        </header>
+
+        <section>
+            <div class="intro grid grid-cols-12">
+                <div class="col-span-8 left-intro">
+                    
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value=" " class="sr-only peer" checked>
+                            <div style="font-size:18px; font-weight:500" class="togg relative bg-[#e6cb99] peer-focus:outline-none rounded-full peer 
+                                peer-checked:bg-[#F5DDC4] peer-checked:after:translate-x-[210px] peer-checked:after:start-[4px] 
+                                peer-checked:after:border-white after:content-[''] after:absolute after:top-[6px] after:start-[0px] after:bg-white 
+                                after:rounded-full after:h-12 after:w-12 after:transition-all after:bg-white 
+                                after:bg-[url('images/img-3.png')] after:bg-cover after:bg-center  
+                                before:content-['Bike&nbsp;Delivery'] before:absolute before:top-[30%] before:translate-y-[-5%] before:left-[50px] before:text-[#F48E28]">
+                            
+                            </div>
+                    </label>
+  
+                    <div class="intro-text">
+                        <p>THE FASTEST <span style="color:#F48E28;">DELIVERY</span><br>IN <span style="color:#F48E28;">YOUR CITY</span></p>
+                    </div>
+
+                    <div class="intro-text2">
+                        <p>Welcome to our resturant, where culinary artistry meets exceptional service. Our menu features fresh, locally-sourced ingredients crafted into exquisite dishes. Join us for a memorable dining experience that tantalizes your taste buds!</p>
+                    </div>
+
+                    <div class="two-btn">
+                        <button class="btn-one">Order Now</button>
+                        <button class="order-btn" style="color:#F48E28"><div class="play"><i class="fa fa-play"></i></div><p style="color:black;font-weight:700;font-size:28px">Order Process</p></button>
+                        
+                    </div>
+
+
+                </div>
+
+                <div class="col-span-4 right-intro">
+                    <div class="flex-div">
+                        <div class="food-img">
+                            <div class="img-div">
+                                <img src="images/food1.png">
+                            </div>
+                            <div style="position:relative;margin-top: 140px;">
+                                <h4 style="font-weight: 700;">Burger</h4>
+                                <p>Mushroom sauce</p>
+                                <p><span style="color:red">$</span>5.15</p>
+                            </div>
+                        </div>
+                        <div class="food-img">
+                            <div class="img-div">
+                                <img src="images/food3.png">
+                            </div>
+                            <div style="position:relative;margin-top: 140px;">
+                                <h4 style="font-weight: 700;">Pizza</h4>
+                                <p>Mushroom sauce</p>
+                                <p><span style="color:red">$</span>6.15</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-div">
+                        <div class="food-img">
+                            <div class="img-div">
+                                <img src="images/food2.png">
+                            </div>
+                            <div style="position:relative;margin-top: 140px;">
+                                <h4 style="font-weight: 700;">Combo Box</h4>
+                                <p>Mushroom sauce</p>
+                                <p><span style="color:red">$</span>9.15</p>
+                            </div>
+                        </div>
+                        <div class="food-img"> 
+                            <div class="img-div">
+                                <img src="images/food4.png">
+                            </div>
+                            <div style="position:relative;margin-top: 140px;">
+                                <h4 style="font-weight: 700;">Cake</h4>
+                                <p>Chocolate Flavour</p>
+                                <p><span style="color:red">$</span>3.15</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="info grid grid-cols-12">
+                <div class="col-span-4 t1">
+                    <i class="fas fa-clock" style="color:#F48E28;"></i>
+                    <h5>Today 10:00am - 10:00pm</h5>
+                    <p>Working time</p>
+                </div>
+                <div class="col-span-4 t2">
+                    <i class="fas fa-map-marker-alt" style="color:#F48E28;"></i>
+                    <h5>Mohammadpur, Dhaka</h5>
+                    <p>Our Location</p>
+                </div>
+                <div class="col-span-4 t3">
+                    <i class="fas fa-phone-alt" style="color:#F48E28;"></i>
+                    <h5>+88 017 0000 0000</h5>
+                    <p>Phone Number</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="menu">
+            <div class="menu-heading">
+                <h5>Product</h5>
+                <h1>Most Popular Items</h1>
+            </div>
+            <div class="menu-list grid grid-cols-12">
+                <div class="col-span-4 food-col">
+                    <div>
+                        <img src="images/menu1.jpg">
+                    </div>
+                    <div>
+                        <div class="food-des">
+                            <p style="font-weight:700; font-size:28px;">Gyro Burgur</p>
+                            <p><span class="fa fa-star checked" style="color:#F48E28"></span>4.9</p>
+                        </div>
+                        <div class="food-des">
+                            <button>Add to cart</button>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-4 food-col">
+                    <div>
+                        <img src="images/menu1.jpg">
+                    </div>
+                    <div>
+                        <div class="food-des">
+                            <p style="font-weight:700; font-size:28px;">Gyro Burgur</p>
+                            <p><span class="fa fa-star checked" style="color:#F48E28"></span>4.9</p>
+                        </div>
+                        <div class="food-des">
+                            <button>Add to cart</button>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-4 food-col">
+                    <div>
+                        <img src="images/menu1.jpg">
+                    </div>
+                    <div>
+                        <div class="food-des">
+                            <p style="font-weight:700; font-size:28px;">Gyro Burgur</p>
+                            <p><span class="fa fa-star checked" style="color:#F48E28"></span>4.9</p>
+                        </div>
+                        <div class="food-des">
+                            <button>Add to cart</button>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-span-4 food-col">
+                    <div>
+                        <img src="images/menu1.jpg">
+                    </div>
+                    <div>
+                        <div class="food-des">
+                            <p style="font-weight:700; font-size:28px;">Gyro Burgur</p>
+                            <p><span class="fa fa-star checked" style="color:#F48E28"></span>4.9</p>
+                        </div>
+                        <div class="food-des">
+                            <button>Add to cart</button>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-4 food-col">
+                    <div>
+                        <img src="images/menu1.jpg">
+                    </div>
+                    <div>
+                        <div class="food-des">
+                            <p style="font-weight:700; font-size:28px;">Gyro Burgur</p>
+                            <p><span class="fa fa-star checked" style="color:#F48E28"></span>4.9</p>
+                        </div>
+                        <div class="food-des">
+                            <button>Add to cart</button>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-span-4 food-col">
+                    <div>
+                        <img src="images/menu1.jpg">
+                    </div>
+                    <div>
+                        <div class="food-des">
+                            <p style="font-weight:700; font-size:28px;">Gyro Burgur</p>
+                            <p><span class="fa fa-star checked" style="color:#F48E28"></span>4.9</p>
+                        </div>
+                        <div class="food-des">
+                            <button>Add to cart</button>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showButton col-span-12">
+                    <button onclick="add()">Show More Products <i class="fa-solid fa-circle-arrow-right"></i></button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-heading">
+                <h5>Services</h5>
+                <h1>Why Choose Our Favorite Food</h1>
+            </div>
+    
+            <div class="grid grid-cols-12">
+                <div class="col-span-4 feature1">
+                    <i class="fas fa-utensils" style="color:#F48E28;"></i>
+                    <h4>Qualityfull Food</h4>
+                    <p>But I must explain to you how all this
+                        mistaken idea of denouncing pleasur and
+                        prasising pain was bron.</p>
+                </div>
+                <div class="col-span-4 feature2">
+                    <i class="fas fa-utensils" style="color:#F48E28;"></i>
+                    <h4>Healthy Food</h4>
+                    <p>But I must explain to you how all this mistaken idea of denouncing pleasur and prasising pain was bron.</p>
+                </div>
+                <div class="col-span-4 feature3">
+                    <i class="fas fa-truck" style="color:#F48E28;"></i>
+                    <h4>Fast Delivery</h4>
+                    <p>But I must explain to you how all this
+                        mistaken idea of denouncing pleasur and
+                        prasising pain was bron.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="review">
+
+            <div class="feature-heading">
+                <h5>Testimonials</h5>
+                <h1>Our Happy Client Says</h1>
+            </div>
+
+            <div style="display: flex;">
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="images/person-circle.svg">
+                            <h4>Willians Jhone</h4>
+                            <p>Teacher</p>
+                            <p>Loved the flavor of the burger, and 
+                                the fries had just the right amount of seasoning. Highly recommend!</p>
+                        </div>
+                        <div class="slide">
+                            <img src="images/person-circle.svg">
+                            <h4>Quan Liam</h4>
+                            <p>Accountant</p>
+                            <p>The combo burger was juicy, and the fries were perfectly crispy!
+                                 A great deal for such a tasty meal.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="images/person-circle.svg">
+                            <h4>Roy Mustang</h4>
+                            <p>Army</p>
+                            <p>The burger was cooked to perfection, and the fries were piping hot.
+                                 A satisfying combo for an unbeatable price!</p>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="prevSlide()"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                    <button class="next" onclick="nextSlide()"><i class="fa-solid fa-circle-arrow-right"></i></button>
+                </div>
+
+                <div class="combo-img">
+                    <img src="images/food-combo.png">
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section class="subscription grid grid-cols-12">
+            <div class="col-span-6 sub-img">
+                <img src="images/food1.png">
+            </div>
+            <div class="col-span-6 sub-des">
+                <h1>Subcribe To Our Newsletter</h1>
+                <p>Stay in the loop with our latest deals and exclusive offers by subscribing to our newsletter!
+                    Get delicious updates, special discounts, and more straight to your inbox!
+                    Sign up now and never miss out on the best meals and promotions from your favorite restaurant!</p>
+            
+                <!-- <div class="input-button">
+                    <input type="email" placeholder="Enter your email" id="email-input">
+                    <button type="submit" class="sb-btn">Subscribe</button>
+                </div> -->
+
+                <form onsubmit="return false;">
+                    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                    <div class="relative">
+                        <input type="input" id="email" class="block w-full p-4 ps-10 text-sm text-gray-900 border rounded-lg bg-white" style="height: 72px; width: 470px; border-radius:15px; margin-top:20px" placeholder="Type your email....." required />
+                        <button type="submit" class="text-white absolute end-2.5 bottom-2.5  font-medium rounded-lg text-sm px-4 py-2" style="height: 50px; width: 149px; background-color: #F48E28; transform:translateX(-25%); border-radius:15px" onclick="subscribe(event)">SUBSCRIBE</button>
+                    </div>
+                </form>
+                    
+            </div>
+        </section>
+
+        <section class="grid grid-cols-12 lastone">
+            <div class="col-span-4 footer f1">
+                <img src="images/img1.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque fugit impedit ex tempore pariatur assumenda odio ut blanditiis quis dolores libero sint culpa at, voluptatum reprehenderit earum? Dicta, architecto nihil.</p>
+                <div class="banner-site"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><a href='https://www.linkedin.com/in/raisarubayet/' style="text-decoration:none; color: #FFFFFF80"><i class="fa-brands fa-linkedin  footer-sites"></i></a></div>
+            </div>
+            <div class="col-span-3 footer f2">
+                <h3>Opening Restaurant</h3>
+                <ul>
+                    <li>Sat-Wed: 09:00am-10:00PM</li>
+                    <li>Thursday: 09:00am-11:00PM</li>
+                    <li>Friday: 09:00am-8:00PM</li>
+                </ul>
+            </div>
+            <div class="col-span-2 footer f3">
+                <h3>User link</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Order Delivery</li>
+                    <li>Payment & Tex</li>
+                    <li>Terms of Services</li>
+                </ul>
+
+            </div>
+            <div class="col-span-2 footer f4">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Mohammadpur, Dhaka</li>
+                    <li>+88 017 0000 0000</li>
+                    <li>+88 018 0000 0000</li>
+                </ul>
+
+            </div>
+        </section>
+        <script src="index.js"></script>
+</body>
+</html>
